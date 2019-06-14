@@ -11,6 +11,12 @@ const checkUrl = (nxt_url, watson) => {
   }
 };
 
+/**
+ * Mapping through logs array and return new object with neccessary data only
+ *
+ * @param {Object} logs
+ * @returns
+ */
 const formatLogs = logs => {
   return logs.map(r => {
     return {
@@ -26,6 +32,10 @@ const formatLogs = logs => {
     };
   });
 };
+
+//--------------------------------------------------------------------------------------
+// EXPORTS 
+//--------------------------------------------------------------------------------------
 
 module.exports = {
   checkUrl,
