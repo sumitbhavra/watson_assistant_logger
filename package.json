@@ -1,0 +1,23 @@
+{
+  "name": "watson_assistant_logger",
+  "version": "1.0.0",
+  "description": "extract one month logs from watson assistant...",
+  "main": "app",
+  "repository": "https://github.com/sumitbhavra/watson_assistant_logger.git",
+  "author": "sumit singh",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "fast-csv": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
