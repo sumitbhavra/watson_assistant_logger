@@ -112,7 +112,7 @@ app.get("/:workspace_id/:username/:password", async (request, response) => {
 //--------------------------------------------------------------------------------------
 // Server Config 
 //--------------------------------------------------------------------------------------
-
-app.listen(8000, () => {
+const PORT = process.env.PORT || 8000;
+app.listen(PORT, () => {
   console.log("server is running on port 8000");
 });
